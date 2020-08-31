@@ -46,6 +46,7 @@
 ### Course: Securing and Integrating Components of your Application on Google Cloud
 
 Module: Handling Authentication and Authorization
+
 7.  App Dev - Adding User Authentication to your Application: Node.js
 
 8.	App Dev - Adding User Authentication to your Application: Java
