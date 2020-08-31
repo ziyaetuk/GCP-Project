@@ -1,24 +1,27 @@
-Google Africa Developer Scholarship Phase II 
+# Google Africa Developer Scholarship Phase II 
 
-Google Cloud Practice Project 
-
-
-Description
-
-The list of projects reports in the repo is in response to the Google Cloud challenge based on labs on Qwiklabs provided by Pluralsight.
-
-The challenge(s)
-
-The Cloud challenge is divided in two parts:
-
-Complete of 10-15 selected hands-on labs on Qwiklabs and submitting proof of such per screenshot based on the email received.
-
-“Translation” of 2-3 selected labs from Console instructions to 100% command line instructions.
+## Google Cloud Practice Project 
 
 
-Choosen Cloud Challanges: 
+### Description
 
-Course: Google Cloud Platform Fundamentals - Core Infrastructure
+    List of Labs completed and corresponding module from on Qwiklabs.
+
+    
+### The Task(s)
+
+    The Cloud challenge is divided in two parts:
+
+    -   Complete of 10-15 selected hands-on labs on Qwiklabs and submitting 
+        proof of such per screenshot based on the email received.
+
+    -   “Translation” of 2-3 selected labs from Console instructions to 100% 
+        command line instructions.
+
+
+## Qwicklab Task: 
+
+### Course: Google Cloud Platform Fundamentals - Core Infrastructure
 
 1.	Module: Getting Started with Google Cloud Platform
     GCP Fundamentals: Getting Started with Cloud Marketplace
@@ -40,7 +43,7 @@ Course: Google Cloud Platform Fundamentals - Core Infrastructure
 6.	Module: Big Data and Machine Learning in the Cloud
     GCP Fundamentals: Getting Started with BigQuery
 
-Course: Securing and Integrating Components of your Application on Google Cloud
+### Course: Securing and Integrating Components of your Application on Google Cloud
 
 7.	Module: Handling Authentication and Authorization
     App Dev - Adding User Authentication to your Application: Node.js
@@ -52,15 +55,18 @@ Course: Securing and Integrating Components of your Application on Google Cloud
 Course: Securing and Integrating Components of your Application on Google Cloud
 
 10.	Module: Using Cloud Pub/Sub
-App Dev - Developing a Backend Service: Node.js
+    App Dev - Developing a Backend Service: Node.js
 
 
-Course: Getting Started With Application Development on Google Cloud 
+### Course: Getting Started With Application Development on Google Cloud 
 
 11.	App Dev: Storing Application Data in Cloud Datastore v1.1 - Translated
 
 12. Module: Best Practices for Using Cloud Datastore
-App Dev: Storing Application Data in Cloud Datastore v1.1
+    App Dev: Storing Application Data in Cloud Datastore v1.1
+
+13. Module: Best Practices for Using Cloud Storage
+    App Dev: Storing Image and Video Files in Cloud Storage v1.1
 
 
 
