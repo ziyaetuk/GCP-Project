@@ -42,12 +42,23 @@ Course: Google Cloud Platform Fundamentals - Core Infrastructure
 
 Course: Securing and Integrating Components of your Application on Google Cloud
 
-8.	Module: Handling Authentication and Authorization
+7.	Module: Handling Authentication and Authorization
     App Dev - Adding User Authentication to your Application: Node.js
 
-9.	App Dev - Adding User Authentication to your Application: Java
+8.	App Dev - Adding User Authentication to your Application: Java
 
-10.	App Dev - Adding User Authentication to your Application: Python
+9.	App Dev - Adding User Authentication to your Application: Python
+
+Course: Securing and Integrating Components of your Application on Google Cloud
+
+10.	Module: Using Cloud Pub/Sub
+App Dev - Developing a Backend Service: Node.js
+
+
+Course: Getting Started With Application Development on Google Cloud 
+
+11.	App Dev: Storing Application Data in Cloud Datastore v1.1 - Translated
+
 
 
 
