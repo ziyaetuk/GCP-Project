@@ -59,6 +59,10 @@ Course: Getting Started With Application Development on Google Cloud
 
 11.	App Dev: Storing Application Data in Cloud Datastore v1.1 - Translated
 
+12. Module: Best Practices for Using Cloud Datastore
+App Dev: Storing Application Data in Cloud Datastore v1.1
+
+
 
 
 
