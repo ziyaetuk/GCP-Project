@@ -55,14 +55,14 @@ Module: Handling Authentication and Authorization
 </details>
 <details>
 Module: Handling Authentication and Authorization
-<summary> 9 - App Dev - Adding User Authentication to your Application: Python</summary>
+<summary> Lab 9 - App Dev - Adding User Authentication to your Application: Python</summary>
 <img src="screenshots/Adding-User-Authentication-to-your-Application-python.jpg">
 </details>
 
 ### Course: Securing and Integrating Components of your Application on Google Cloud
 
 <details>
-Module:** Using Cloud Pub/Sub
+Module: Using Cloud Pub/Sub
 <summary> Lab 10 - App Dev - Developing a Backend Service: Node.js</summary>
     <img src="screenshots/Developing-a-Backend-Service-Nodejs.jpg">
 </details>
