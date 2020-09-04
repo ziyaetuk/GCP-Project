@@ -40,7 +40,6 @@ Module: Containers in the Cloud
     <summary> Lab 6 - GCP Fundamentals: Getting Started with Kubernetes Engine</summary>
     <img src="screenshots/Getting-Started-with-GKE.jpg">
 </details>
-<details>
 
 ### Course: Securing and Integrating Components of your Application on Google Cloud
 
