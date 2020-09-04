@@ -58,7 +58,6 @@ Module: Handling Authentication and Authorization
 10.	Module: Using Cloud Pub/Sub
     App Dev - Developing a Backend Service: Node.js
 
-
 ### Course: Getting Started With Application Development on Google Cloud 
 
 11.	App Dev: Storing Application Data in Cloud Datastore v1.1 - Translated
@@ -69,7 +68,7 @@ Module: Handling Authentication and Authorization
 13. Module: Best Practices for Using Cloud Storage
     App Dev: Storing Image and Video Files in Cloud Storage v1.1
 
+### Course: Essential Google Cloud Infrastructure: Foundation
 
-
-
-
+14.	Module: Virtual Networks
+    VPC Networking - Translated
