@@ -104,8 +104,8 @@ Module: Deploying Applications
 </details> 
 
 ### Translated Projects 
-- [Setting-up-a-Development-Environment-v1-1](https://github.com/ziyaetuk/GCP-Project/blob/master/Translated%20Project/Setting-up-a-Development-Environment-v1-1.md)
+- [x] [Setting-up-a-Development-Environment-v1-1](https://github.com/ziyaetuk/GCP-Project/blob/master/Translated%20Project/Setting-up-a-Development-Environment-v1-1.md)
 
-- [VPC Networking](https://github.com/ziyaetuk/GCP-Project/blob/master/Translated%20Project/VPCNetworking.md)
+- [x] [VPC Networking](https://github.com/ziyaetuk/GCP-Project/blob/master/Translated%20Project/VPCNetworking.md)
 
-- [Virtual Machine](https://github.com/ziyaetuk/GCP-Project/blob/master/Translated%20Project/VirtualMachine.md)
+- [x] [Virtual Machine](https://github.com/ziyaetuk/GCP-Project/blob/master/Translated%20Project/VirtualMachine.md)
