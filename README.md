@@ -109,5 +109,3 @@ Module: Deploying Applications
 - [x]  [VPC Networking]("Translated Project/VPCNetworking.md")
 
 - [x]  [Virtual Machine]("Translated Project/VirtualMachine.md")
-
-
