@@ -101,7 +101,7 @@ Module: Containers and Kubernetes in GCP
 Module: Deploying Applications
 <summary>Lab 15 - App Dev - Deploying the Application into Kubernetes Engine: Python</summary>
 <img src="screenshots/App-Dev-Deploying-the-Application-into-Kubernetes.jpg">
-<details> 
+</details> 
 
 ### Translated Projects 
 - [x]  [Setting-up-a-Development-Environment-v1-1]("Translated Project/Setting-up-a-Development-Environment-v1-1.md")
