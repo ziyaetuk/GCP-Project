@@ -85,7 +85,7 @@ Module: Best Practices for Using Cloud Storage
 <details>
 Module: Virtual Networks
 <summary> Lab 13 - [VPC Networking](Project/VPCNetworking.md "VPC Networking Lab, 100% Cloud Shell") - Translated</summary>
-<img src="screenshots/PC_Networking.jpg">
+<img src="screenshots/VPC_Networking.jpg">
 </details>
 
 ### Course: Architecting with Google Kubernetes Engine - Foundations
