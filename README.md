@@ -71,7 +71,7 @@ Module: Using Cloud Pub/Sub
 
 <details>
 Module: Best Practices for Using Cloud Datastore 
-<summary> Lab 11 - App Dev: Storing Application Data in Cloud Datastore v1.1 - Translated</summary>
+<summary> Lab 11 - App Dev: Storing Application Data in Cloud Datastore v1.1 - **Translated**</summary>
       <img src="screenshots/Storing-Application-Data-in-Cloud-Datastore-v1-1.jpg">
 </details>
 <details>
@@ -84,7 +84,7 @@ Module: Best Practices for Using Cloud Storage
 
 <details>
 Module: Virtual Networks
-<summary> Lab 13 - [VPC Networking](Project/VPCNetworking.md "VPC Networking Lab, 100% Cloud Shell") - Translated</summary>
+<summary> Lab 13 - VPC Networking Lab, 100% Cloud Shell - **Translated**</summary>
 <img src="screenshots/VPC_Networking.jpg">
 </details>
 
@@ -108,4 +108,4 @@ Module: Deploying Applications
 
 - [x] [VPC Networking](https://github.com/ziyaetuk/GCP-Project/blob/master/Translated%20Project/VPCNetworking.md)
 
-- [x] [Virtual Machine](https://github.com/ziyaetuk/GCP-Project/blob/master/Translated%20Project/VirtualMachine.md)
+- [x] [Creating Virtual Machines](https://github.com/ziyaetuk/GCP-Project/blob/master/Translated%20Project/VirtualMachine.md)
