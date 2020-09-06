@@ -9,7 +9,7 @@ List of completed hands-on labs on Qwiklabs
 
 ## Qwicklab Task: 
 
-**Note:** You have to click on each lab with the arrow to view a drop-down of the comletion verification screenshot. 
+**Note:**  ***You have to click on each lab with the arrow to view a drop-down of the comletion verification screenshot.*** 
 
 ### Course: Google Cloud Platform Fundamentals - Core Infrastructure
 <details>
