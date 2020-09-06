@@ -104,8 +104,8 @@ Module: Deploying Applications
 </details> 
 
 ### Translated Projects 
-- [x]  [Setting-up-a-Development-Environment-v1-1]("Translated Project/Setting-up-a-Development-Environment-v1-1.md")
+- [x]  [Setting-up-a-Development-Environment-v1-1](Translated Project/Setting-up-a-Development-Environment-v1-1.md)
 
-- [x]  [VPC Networking]("Translated Project/VPCNetworking.md")
+- [x]  [VPC Networking](Translated Project/VPCNetworking.md)
 
-- [x]  [Virtual Machine]("Translated Project/VirtualMachine.md")
+- [x]  [Virtual Machine](Translated Project/VirtualMachine.md)
