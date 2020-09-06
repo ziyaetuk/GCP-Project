@@ -108,4 +108,3 @@ Module: Deploying Applications
 
 - [x] [VPC Networking](https://github.com/ziyaetuk/GCP-Project/blob/master/Translated%20Project/VPCNetworking.md)
 
-- [x] [Creating Virtual Machines](https://github.com/ziyaetuk/GCP-Project/blob/master/Translated%20Project/VirtualMachine.md)
