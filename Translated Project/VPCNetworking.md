@@ -15,6 +15,7 @@ In this lab, I create an auto mode VPC network with firewall rules and two VM in
 ```
 gcloud compute networks subnets list |  grep default
 ```
+**Output**
 ```
 default  us-central1              default  10.128.0.0/20
 default  europe-west1             default  10.132.0.0/20
@@ -45,6 +46,7 @@ default  asia-southeast2          default  10.184.0.0/20
 ```
 gcloud compute firewall-rules list
 ```
+**Output**
 ```
 NAME                    NETWORK  DIRECTION  PRIORITY  ALLOW                         DENY  DISABLED
 default-allow-icmp      default  INGRESS    65534     icmp                                False
@@ -80,6 +82,7 @@ gcloud compute firewall-rules list
 ```
 gcloud compute networks create mynetwork --subnet-mode= auto
 ```
+**Output**
 ```
 NAME       SUBNET_MODE  BGP_ROUTING_MODE  IPV4_RANGE  GATEWAY_IPV4
 mynetwork  AUTO         REGIONAL
@@ -92,6 +95,7 @@ gcloud compute networks list | grep mynetwork
 ```
 gcloud compute firewall-rules create mynetwork --network mynetwork --allow icmp,udp,tcp,tcp:22,tcp:3389
 ```
+**Output**
 ```
 Creating firewall...done.
 NAME       NETWORK    DIRECTION  PRIORITY  ALLOW                         DENY  DISABLED
@@ -101,6 +105,7 @@ mynetwork  mynetwork  INGRESS    1000      icmp,udp,tcp,tcp:22,tcp:3389        F
 ```
 gcloud compute networks subnets list | grep -E  "us-central1 europe-west1"
 ```
+**Output**
 ```
 mynetwork  us-central1              mynetwork  10.128.0.0/20
 mynetwork  europe-west1             mynetwork  10.132.0.0/20
@@ -109,6 +114,7 @@ mynetwork  europe-west1             mynetwork  10.132.0.0/20
 ```
 gcloud compute instances create mynet-us-vm --zone=us-central1-c --network=mynetwork
 ```
+**Output**
 ```
 NAME         ZONE           MACHINE_TYPE   PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP     STATUS
 mynet-us-vm  us-central1-c  n1-standard-1               10.128.0.2   34.122.119.166  RUNNING
@@ -117,6 +123,7 @@ mynet-us-vm  us-central1-c  n1-standard-1               10.128.0.2   34.122.119.
 ```
 gcloud compute instances create mynet-eu-vm --zone=europe-west1-c --network=mynetwork
 ```
+**Output**
 ```
 NAME         ZONE           MACHINE_TYPE   PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP     STATUS
 mynet-eu-vm  europe-west1-c  n1-standard-1               10.132.0.2   34.77.239.214  RUNNING
@@ -130,9 +137,11 @@ gcloud compute instances describe mynet-us-vm
 ```
 gcloud compute ssh  mynet-us-vm
 ```
+**Output**
 ```
 ping -c 3 34.77.239.214
 ```
+**Output**
 ```
 PING 34.77.239.214 (34.77.239.214) 56(84) bytes of data.
 64 bytes from 34.77.239.214: icmp_seq=1 ttl=52 time=124 ms
@@ -165,6 +174,7 @@ gcloud compute networks subnets create privatesubnet-eu --network=privatenet --r
 ```
 gcloud compute networks subnets list --sort-by=NETWORK
 ```
+**Output**
 ```
 NAME           SUBNET_MODE  BGP_ROUTING_MODE  IPV4_RANGE  GATEWAY_IPV4
 managementnet  CUSTOM       REGIONAL
@@ -175,6 +185,7 @@ privatenet     CUSTOM       REGIONAL
 ```
 gcloud compute networks subnets list --sort-by=NETWORK
 ```
+**Output**
 ```
 NAME                 REGION                   NETWORK        RANGE
 managementsubnet-us  us-central1              managementnet  10.130.0.0/20
@@ -217,6 +228,7 @@ gcloud compute firewall-rules create privatenet-allow-icmp-ssh-rdp --direction=I
 ```
 gcloud compute firewall-rules list --sort-by=NETWORK
 ```
+**Output**
 ```
 NAME                              NETWORK        DIRECTION  PRIORITY  ALLOW                         DENY  DISABLED
 managementnet-allow-icmp-ssh-rdp  managementnet  INGRESS    1000      icmp,tcp:22,tcp:3389                False
@@ -235,6 +247,7 @@ gcloud compute instances create privatenet-us-vm --zone=us-central1-c --machine-
 ```
 gcloud compute instances list --sort-by=NETWORK
 ```
+**Output**
 ```
 NAME                 ZONE            MACHINE_TYPE   PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP     STATUS
 mynet-eu-vm          europe-west1-c  n1-standard-1               10.132.0.2   34.77.239.214   RUNNING
@@ -247,6 +260,7 @@ privatenet-us-vm     us-central1-c   f1-micro                    172.16.0.2   34
 ```
 gcloud compute ssh  mynet-us-vm
 ```
+**Output**
 ```
 ping -c 3 35.187.172.12 
 ping -c 3 130.211.204.17 
